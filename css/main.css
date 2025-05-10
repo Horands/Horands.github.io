@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ecd9fb;
+  background: #ffd59d;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2601,5 +2601,12 @@ body {
     width: 100% !important;
     background: rgba(255,255,255,0.9);
     box-shadow: none;
+  }
+}
+@media (max-width: 991px) {
+  .netease-music iframe {
+    height: 80px !important;
+    margin: 10px 0;
+    border-radius: 8px;
   }
 }
